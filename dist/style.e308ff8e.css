@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Open+Sans&family=Work+Sans&display=swap');
+
+:root {
+    --background-light: #f2f2f2;
+    --background-yellow: #F7E495;
+    --purple: #880088;
+    --brand-orange: #EF5D1F;
+    --brand-black: #1b1b1b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+     /* margin: 0; */
+     color: var(--brand-black);
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--background-light);
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, .logo {
+    font-family: 'Epilogue', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* NavBar */
+nav {
+    height: 64px;
+    padding: 0 40px;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: var(--brand-orange);
+    font-weight: bold;
+}
+.container {
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 0 40px;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* First Fold */
+
+.first-fold {
+    padding: 30px;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+}
+
+.nav-right {
+    margin-left: auto;
+}
+
+.first-fold-left h1{
+    font-size: 50px;
+    /* margin-bottom: 10px; */
+}
+
+.first-fold-left {
+    width: 40%;
+}
+.first-fold-right {
+    width: 60%;
+}
+.paper-plane {
+    width: 40px;
+}
+/* @media (min-width: 450px) {
+.first-fold-left h1{
+    font-size: 60px;
+}
+} */
+
+
+p {
+    font-size: 20px;
+}
+
+:root {
+  --width: 100%;
+}
+
+.holder {
+  /* Clip edges, as some of the lines don't terminate nicely. */
+  overflow: hidden;
+  position: relative;
+  width: var(--width);
+  height: 50px;
+}
+
+.ellipse {
+  position: absolute;
+  background: radial-gradient(ellipse, transparent, transparent 7px, black 7px, black 10px, transparent 11px);
+  background-size: 36px 40px;
+  width: var(--width);
+  height: 20px;
+}
+
+.ellipse2 {
+  top: 20px;
+  left: 18px;
+  background-position: 0px -20px;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
